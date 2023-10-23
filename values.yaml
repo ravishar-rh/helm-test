@@ -1,0 +1,10 @@
+kubernetesClusterDomain: cluster.local
+webServer:
+  webServer:
+    image:
+      repository: nginx
+      tag: latest
+    resources:
+      limits:
+        cpu: 500m
+        memory: 128Mi
